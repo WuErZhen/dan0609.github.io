@@ -71,12 +71,16 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-末班" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <article id="post-模板" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2021/07/04/%E6%9C%AB%E7%8F%AD/" class="article-date">
+    <a href="/2021/07/04/%E6%A8%A1%E6%9D%BF/" class="article-date">
   <time class="dt-published" datetime="2021-07-04T15:43:12.000Z" itemprop="datePublished">2021-07-04</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%88%86%E7%B1%BB/">分类</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -85,7 +89,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/2021/07/04/%E6%9C%AB%E7%8F%AD/">末班</a>
+      <a class="p-name article-title" href="/2021/07/04/%E6%A8%A1%E6%9D%BF/">模板</a>
     </h1>
   
 
@@ -97,10 +101,12 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/07/04/%E6%9C%AB%E7%8F%AD/" data-id="ckqqqe5zt00098fjbbx0a2er7" data-title="末班" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/07/04/%E6%A8%A1%E6%9D%BF/" data-id="ckqqry7k90002i1jbb6g3b531" data-title="模板" class="article-share-link">Share</a>
       
       
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%A0%87%E7%AD%BE/" rel="tag">标签</a></li></ul>
+
     </footer>
   </div>
   
@@ -109,12 +115,16 @@
 
 
   
-    <article id="post-学习笔记-selenium" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <article id="post-自动化-api-接口自动化" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2021/05/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-selenium/" class="article-date">
-  <time class="dt-published" datetime="2021-05-15T08:43:33.000Z" itemprop="datePublished">2021-05-15</time>
+    <a href="/2021/06/20/%E8%87%AA%E5%8A%A8%E5%8C%96-api-%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96/" class="article-date">
+  <time class="dt-published" datetime="2021-06-20T14:15:06.000Z" itemprop="datePublished">2021-06-20</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/">自动化测试</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -123,63 +133,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/2021/05/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-selenium/">学习笔记-selenium</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="selenium学习笔记"><a href="#selenium学习笔记" class="headerlink" title="selenium学习笔记"></a>selenium学习笔记</h1><h2 id="背景和原理"><a href="#背景和原理" class="headerlink" title="背景和原理"></a>背景和原理</h2><p>Selenium 是一个 Web 应用的自动化框架。<br>通过它，我们可以写出自动化程序，像人一样在浏览器里操作web界面。</p>
-<p>Selenium 的自动化原理是：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Selenium客户端库 &lt;-&gt; 浏览器驱动 &lt;-&gt; 浏览器</span><br></pre></td></tr></table></figure>
-<h2 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h2><p>1.导入webdriver模块</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">form selenium import webdriver</span><br></pre></td></tr></table></figure>
-<p>2.创建webdriver实例化对象，并指明用chrome浏览器驱动</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wd = webdriver.Chrome(r&#x27;浏览器驱动存储路径&#x27;)</span><br></pre></td></tr></table></figure>
-<p>3.调用 get 方法，让浏览器打开指定网址</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wd.get(&#x27;http://www.baidu.com&#x27;)</span><br></pre></td></tr></table></figure>
-<p>4.选择元素</p>
-<p>5.操控元素</p>
-<p>6.退出</p>
-<h2 id="选择元素"><a href="#选择元素" class="headerlink" title="选择元素"></a>选择元素</h2><h2 id="操控元素"><a href="#操控元素" class="headerlink" title="操控元素"></a>操控元素</h2><h1 id="css表达式"><a href="#css表达式" class="headerlink" title="css表达式"></a>css表达式</h1><p>通过 CSS Selector 选择单个元素的方法是</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find_element_by_css_selector(CSS Selector参数)</span><br></pre></td></tr></table></figure>
-<p>选择所有元素的方法是</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find_elements_by_css_selector(CSS Selector参数)</span><br></pre></td></tr></table></figure>
-<p>参数写法</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tag名直接写</span><br><span class="line">#id值</span><br><span class="line">.class值</span><br></pre></td></tr></table></figure>
-<h1 id="frame切换"><a href="#frame切换" class="headerlink" title="frame切换"></a>frame切换</h1><h1 id=""><a href="#" class="headerlink" title=""></a></h1>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2021/05/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-selenium/" data-id="ckqpd59h40000dnjd3q8x7gkw" data-title="学习笔记-selenium" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-api自动化接口测试" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2021/01/20/api%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/" class="article-date">
-  <time class="dt-published" datetime="2021-01-20T14:15:06.000Z" itemprop="datePublished">2021-01-20</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2021/01/20/api%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/">Api接口测试</a>
+      <a class="p-name article-title" href="/2021/06/20/%E8%87%AA%E5%8A%A8%E5%8C%96-api-%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96/">Api接口自动化测试</a>
     </h1>
   
 
@@ -202,11 +156,11 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/01/20/api%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/" data-id="ckqqqe5zp00068fjb9tw8cogj" data-title="Api接口测试" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/06/20/%E8%87%AA%E5%8A%A8%E5%8C%96-api-%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96/" data-id="ckqqry7k60001i1jb5qkx1w20" data-title="Api接口自动化测试" class="article-share-link">Share</a>
       
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/" rel="tag">接口测试</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python/" rel="tag">Python</a></li></ul>
 
     </footer>
   </div>
@@ -216,9 +170,9 @@
 
 
   
-    <article id="post-Monkey压测" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <article id="post-性能_Monkey_压测" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2021/01/09/Monkey%E5%8E%8B%E6%B5%8B/" class="article-date">
+    <a href="/2021/01/09/%E6%80%A7%E8%83%BD_Monkey_%E5%8E%8B%E6%B5%8B/" class="article-date">
   <time class="dt-published" datetime="2021-01-09T12:25:01.000Z" itemprop="datePublished">2021-01-09</time>
 </a>
     
@@ -230,7 +184,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/2021/01/09/Monkey%E5%8E%8B%E6%B5%8B/">monkey使用</a>
+      <a class="p-name article-title" href="/2021/01/09/%E6%80%A7%E8%83%BD_Monkey_%E5%8E%8B%E6%B5%8B/">monkey使用</a>
     </h1>
   
 
@@ -247,7 +201,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/01/09/Monkey%E5%8E%8B%E6%B5%8B/" data-id="ckqqqe5zm00048fjbfzfn7bzu" data-title="monkey使用" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/01/09/%E6%80%A7%E8%83%BD_Monkey_%E5%8E%8B%E6%B5%8B/" data-id="ckqqry7hb0000i1jb2856hr2h" data-title="monkey使用" class="article-share-link">Share</a>
       
       
       
@@ -259,176 +213,16 @@
 
 
   
-    <article id="post-Git常用操作" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <article id="post-进阶-adb-Adb常用操作" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2020/12/01/Git%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/" class="article-date">
-  <time class="dt-published" datetime="2020-12-01T12:14:15.000Z" itemprop="datePublished">2020-12-01</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/12/01/Git%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/">git</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="Git操作"><a href="#Git操作" class="headerlink" title="Git操作"></a>Git操作</h1><p>Git 是一个开源的分布式版本控制系统，可以有效高速的处理任何或小或大的项目</p>
-<p>GitLab 是开发团队建立在内网上的，用来托管代码</p>
-<p>Github 则是一个开源的代码库</p>
-<p>网址<a target="_blank" rel="noopener" href="https://github.com/">https://github.com/</a></p>
-<h2 id="项目部署"><a href="#项目部署" class="headerlink" title="项目部署"></a>项目部署</h2><p>部署git的ssh（这个步骤是将机器上面的凭证发到github上面，之后机器就不用验证了）</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1. 终端ssh-keygen -o</span><br><span class="line">2. cd ~/.ssh/</span><br><span class="line">3. ls</span><br><span class="line">4. cat ~/.ssh/id_rsa.pub</span><br><span class="line">5. 复制ssh秘钥</span><br><span class="line">6. 回到Git，个人中心Settings - SSH and GPG keys</span><br><span class="line">7. 粘贴秘钥配置一下</span><br></pre></td></tr></table></figure>
-<h2 id="Git-常用操作命令"><a href="#Git-常用操作命令" class="headerlink" title="Git 常用操作命令"></a>Git 常用操作命令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">1. git clone #克隆项目</span><br><span class="line">2. git add .  #添加所有修改过的文件到缓冲区</span><br><span class="line">3. git commit -m</span><br><span class="line">4. git push #将本地分支的更新，推送到远程主机</span><br><span class="line">5. git pull #将远程主机的代码，拉取到本地</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/12/01/Git%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/" data-id="ckqqqe5zl00038fjb3gnb1ta6" data-title="git" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-iOS使用Xcode查看崩溃日志" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/08/06/iOS%E4%BD%BF%E7%94%A8Xcode%E6%9F%A5%E7%9C%8B%E5%B4%A9%E6%BA%83%E6%97%A5%E5%BF%97/" class="article-date">
-  <time class="dt-published" datetime="2020-08-06T14:24:12.000Z" itemprop="datePublished">2020-08-06</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/08/06/iOS%E4%BD%BF%E7%94%A8Xcode%E6%9F%A5%E7%9C%8B%E5%B4%A9%E6%BA%83%E6%97%A5%E5%BF%97/">ios使用Xcode查看崩溃日志</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="ios"><a href="#ios" class="headerlink" title="ios"></a>ios</h1><h2 id="Xcode-查看崩溃日志"><a href="#Xcode-查看崩溃日志" class="headerlink" title="Xcode 查看崩溃日志"></a>Xcode 查看崩溃日志</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">1. 将设备链接至电脑</span><br><span class="line">2. Xcode -- &gt; Window -- &gt; Devices and Simulators</span><br><span class="line">3. 在弹出的窗后上，选中对应的设备后，点击 View Device logs 按钮：</span><br><span class="line">4. This Device 就连接手机的所有日志，All Logs 是本台电脑上的所有崩溃日志</span><br><span class="line">5. 选择All Logs ，找到相应时间的crash日志</span><br><span class="line">6. 右击选择Export Logs导出</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/08/06/iOS%E4%BD%BF%E7%94%A8Xcode%E6%9F%A5%E7%9C%8B%E5%B4%A9%E6%BA%83%E6%97%A5%E5%BF%97/" data-id="ckqqqe5zr00078fjbhery5k38" data-title="ios使用Xcode查看崩溃日志" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-Android使用adb抓取错误日志" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/08/06/Android%E4%BD%BF%E7%94%A8adb%E6%8A%93%E5%8F%96%E9%94%99%E8%AF%AF%E6%97%A5%E5%BF%97/" class="article-date">
-  <time class="dt-published" datetime="2020-08-06T12:43:15.000Z" itemprop="datePublished">2020-08-06</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/08/06/Android%E4%BD%BF%E7%94%A8adb%E6%8A%93%E5%8F%96%E9%94%99%E8%AF%AF%E6%97%A5%E5%BF%97/">Android抓取错误日志</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="Android"><a href="#Android" class="headerlink" title="Android"></a>Android</h1><h2 id="抓取错误日志步骤"><a href="#抓取错误日志步骤" class="headerlink" title="抓取错误日志步骤"></a>抓取错误日志步骤</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1. touch 0321.txt #在终端创建日志文件</span><br><span class="line">2. 手机连接USB到电脑</span><br><span class="line">3. adb logcat -v time &gt;电脑存放路径\名称</span><br><span class="line">4. 输出停止：ctrl+C</span><br></pre></td></tr></table></figure>
-<h2 id="没有抓到的话"><a href="#没有抓到的话" class="headerlink" title="没有抓到的话"></a>没有抓到的话</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">抓取完整日志：adb bugreport bugreport.zip</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/08/06/Android%E4%BD%BF%E7%94%A8adb%E6%8A%93%E5%8F%96%E9%94%99%E8%AF%AF%E6%97%A5%E5%BF%97/" data-id="ckqqqe5zj00018fjb218v7n0e" data-title="Android抓取错误日志" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-Postman和Jmeter" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/07/23/Postman%E5%92%8CJmeter/" class="article-date">
-  <time class="dt-published" datetime="2020-07-23T11:25:13.000Z" itemprop="datePublished">2020-07-23</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/07/23/Postman%E5%92%8CJmeter/">postman和jmeter调试接口</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="postman和jmeter来调试接口"><a href="#postman和jmeter来调试接口" class="headerlink" title="postman和jmeter来调试接口"></a>postman和jmeter来调试接口</h1><h2 id="postman-调试"><a href="#postman-调试" class="headerlink" title="postman 调试"></a>postman 调试</h2><p>可以很方便的用curl来重新调接口：发专辑或者退款</p>
-<p>开发调试报错信息也用curl比较多，可以规避掉cookie和参数获取的问题</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1.获取curl信息：客户端用Charles抓，浏览器F12</span><br><span class="line"></span><br><span class="line">2.启动postman：右上角import — Rawtext - Continue</span><br><span class="line"></span><br><span class="line">3.修改即可</span><br></pre></td></tr></table></figure>
-
-<h2 id="jmeter"><a href="#jmeter" class="headerlink" title="jmeter"></a>jmeter</h2><p>同postman，可以用来调用接口，进行常规的接口测试和性能测试</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">新增测试计划</span><br><span class="line">一、线程组——测试计划-添加-线程组</span><br><span class="line">	1 HTTP请求——线程组-添加-Sampler-HTTP请求</span><br><span class="line">		1.1添加断言——HTTP请求-添加-断言-响应断言</span><br><span class="line">		1.2断言结果——HTTP请求-添加-监听器-断言结果</span><br><span class="line">	2查看结果树——线程组-添加-监听器-查看结果树</span><br><span class="line">	3用户自定义变量——线层组-添加-配置元件-用户自定义变量</span><br><span class="line">	4.添加聚合报告——线程组-添加-监听器-聚合报告</span><br></pre></td></tr></table></figure>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/07/23/Postman%E5%92%8CJmeter/" data-id="ckqqqe5zo00058fjb7fus7rmo" data-title="postman和jmeter调试接口" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-Adb常用操作" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/07/04/Adb%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/" class="article-date">
+    <a href="/2020/07/04/%E8%BF%9B%E9%98%B6-adb-Adb%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/" class="article-date">
   <time class="dt-published" datetime="2020-07-04T15:43:12.000Z" itemprop="datePublished">2020-07-04</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E4%B8%9A%E5%8A%A1%E6%B5%8B%E8%AF%95/">业务测试</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -437,7 +231,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/07/04/Adb%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/">adb常用操作</a>
+      <a class="p-name article-title" href="/2020/07/04/%E8%BF%9B%E9%98%B6-adb-Adb%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/">adb常用操作</a>
     </h1>
   
 
@@ -461,60 +255,12 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2020/07/04/Adb%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/" data-id="ckqqqe5ze00008fjb6hkd17x8" data-title="adb常用操作" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2020/07/04/%E8%BF%9B%E9%98%B6-adb-Adb%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/" data-id="ckqqry7kp000bi1jbcppkcdp1" data-title="adb常用操作" class="article-share-link">Share</a>
       
       
       
-    </footer>
-  </div>
-  
-</article>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/adb/" rel="tag">adb</a></li></ul>
 
-
-
-  
-    <article id="post-Charles抓包工具使用" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/05/20/Charles%E6%8A%93%E5%8C%85%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/" class="article-date">
-  <time class="dt-published" datetime="2020-05-20T12:14:15.000Z" itemprop="datePublished">2020-05-20</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/05/20/Charles%E6%8A%93%E5%8C%85%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">charles抓包工具的使用</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="Charles"><a href="#Charles" class="headerlink" title="Charles"></a>Charles</h1><h2 id="安装证书"><a href="#安装证书" class="headerlink" title="安装证书"></a>安装证书</h2><p>电脑和手机都要装证书才能抓https</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">1. 电脑证书安装，help-sslproxying-lnstall charles root certificate</span><br><span class="line">2. 到钥匙串中登陆信任证书</span><br><span class="line">3. 上方菜单栏-proxy-ssl proxy settings-add</span><br><span class="line">4. host:*  prot:443</span><br><span class="line">5. 手机证书安装，安卓直接浏览器下载安装，ios先安装再信任</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="断点tips"><a href="#断点tips" class="headerlink" title="断点tips"></a>断点tips</h2><p>Rewrite 重写功能适合对网络请求进行一些正则替换<br>Breakpoints 断点功能适合做一些临时性的修改</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1断点测试需要先编辑断点把查询设置为 *</span><br></pre></td></tr></table></figure>
-<h2 id="弱网测试"><a href="#弱网测试" class="headerlink" title="弱网测试"></a>弱网测试</h2><p>可以模拟一些弱网情况来进行兼容性测试</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">选择代理-&gt;节流设置， “Proxy”–&gt;“Throttle Setting” </span><br></pre></td></tr></table></figure>
-
-<h2 id="Mock测试"><a href="#Mock测试" class="headerlink" title="Mock测试"></a>Mock测试</h2><p>后端接口没好就可以用Mock来造数据测试前端~</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">* Charles复制响应，存到本地 </span><br><span class="line">* 通过Json格式化排版 </span><br><span class="line">* 在接口文档中找到字段，增加/修改状态 </span><br><span class="line">*  修改好后替换本地文档 </span><br><span class="line">* 复制url，工具-本地映射-添加-主机填url,选择保存的本地路径  </span><br><span class="line">* Over 客户端查看 </span><br></pre></td></tr></table></figure>
-<h2 id="修改网络请求"><a href="#修改网络请求" class="headerlink" title="修改网络请求"></a>修改网络请求</h2><p>用来测试很好用</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">修改网络请求内容</span><br><span class="line">右击网络请求选择 “Edit”撰写，可修改URL 地址、端口、参数等</span><br><span class="line">Execute可多次发送网络请求</span><br></pre></td></tr></table></figure>
-<h2 id="修改服务器返回内容"><a href="#修改服务器返回内容" class="headerlink" title="修改服务器返回内容"></a>修改服务器返回内容</h2><p>想让服务器返回一些指定的内容，调试特殊情况</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Map 功能：工具栏远程映射和本地映射</span><br><span class="line">Map 功能适合长期地将某一些请求重定向到另一个网络地址或本地文件</span><br></pre></td></tr></table></figure>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/05/20/Charles%E6%8A%93%E5%8C%85%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/" data-id="ckqqqe5zl00028fjbb5013ydu" data-title="charles抓包工具的使用" class="article-share-link">Share</a>
-      
-      
-      
     </footer>
   </div>
   
@@ -530,13 +276,20 @@
           <aside id="sidebar">
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E4%B8%9A%E5%8A%A1%E6%B5%8B%E8%AF%95/">业务测试</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%88%86%E7%B1%BB/">分类</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/">自动化测试</a></li></ul>
+    </div>
+  </div>
+
 
   
     
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/" rel="tag">接口测试</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Python/" rel="tag">Python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/adb/" rel="tag">adb</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A0%87%E7%AD%BE/" rel="tag">标签</a></li></ul>
     </div>
   </div>
 
@@ -546,7 +299,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/" style="font-size: 10px;">接口测试</a>
+      <a href="/tags/Python/" style="font-size: 10px;">Python</a> <a href="/tags/adb/" style="font-size: 10px;">adb</a> <a href="/tags/%E6%A0%87%E7%AD%BE/" style="font-size: 10px;">标签</a>
     </div>
   </div>
 
@@ -555,7 +308,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/05/">May 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/01/">January 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">August 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/07/">July 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">May 2020</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/06/">June 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/01/">January 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/07/">July 2020</a></li></ul>
     </div>
   </div>
 
@@ -568,23 +321,19 @@
       <ul>
         
           <li>
-            <a href="/2021/07/04/%E6%9C%AB%E7%8F%AD/">末班</a>
+            <a href="/2021/07/04/%E6%A8%A1%E6%9D%BF/">模板</a>
           </li>
         
           <li>
-            <a href="/2021/05/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-selenium/">学习笔记-selenium</a>
+            <a href="/2021/06/20/%E8%87%AA%E5%8A%A8%E5%8C%96-api-%E6%8E%A5%E5%8F%A3%E8%87%AA%E5%8A%A8%E5%8C%96/">Api接口自动化测试</a>
           </li>
         
           <li>
-            <a href="/2021/01/20/api%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/">Api接口测试</a>
+            <a href="/2021/01/09/%E6%80%A7%E8%83%BD_Monkey_%E5%8E%8B%E6%B5%8B/">monkey使用</a>
           </li>
         
           <li>
-            <a href="/2021/01/09/Monkey%E5%8E%8B%E6%B5%8B/">monkey使用</a>
-          </li>
-        
-          <li>
-            <a href="/2020/12/01/Git%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/">git</a>
+            <a href="/2020/07/04/%E8%BF%9B%E9%98%B6-adb-Adb%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/">adb常用操作</a>
           </li>
         
       </ul>
